@@ -33,9 +33,6 @@ const Stage1 = () => {
         return true
     }
 
-
-    console.log(context.state)
-
     return(
         <>
             <Form onSubmit={handleSubmit} className="mt-4">
