@@ -11,7 +11,6 @@ const Stage1 = () => {
         const value = textInput.current.value;
 
         console.log(value)
-
     }
 
 
