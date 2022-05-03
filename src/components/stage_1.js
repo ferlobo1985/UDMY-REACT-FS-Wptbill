@@ -77,7 +77,7 @@ const Stage1 = () => {
                         </ul>
                         <div 
                             className='action_button'
-                            onClick={()=> alert('STAGE 2')}
+                            onClick={()=> context.next()}
                         >
                             NEXT
                         </div>
